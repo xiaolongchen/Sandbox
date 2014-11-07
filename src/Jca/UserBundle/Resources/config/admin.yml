@@ -1,0 +1,9 @@
+services:
+    jca.user.admin:
+        class: Jca\UserBundle\Admin\UserAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: User, label: User }
+        arguments:
+            - ~
+            - Jca\UserBundle\Entity\User
+            - 'JcaUserBundle:UserAdmin'

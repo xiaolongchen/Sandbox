@@ -1,0 +1,41 @@
+sonata_classification:
+    class:
+        collection:     Jca\ClassificationBundle\Entity\Collection
+        tag:            Jca\ClassificationBundle\Entity\Tag
+        category:       Jca\ClassificationBundle\Entity\Category
+        media:          Jca\MediaBundle\Entity\Media
+
+sonata_news:
+    title:        Sonata Project
+    link:         http://sonata-project.org
+    description:  Cool bundles on top of Symfony2
+    salt:         'secureToken'
+    permalink_generator: sonata.news.permalink.date # sonata.news.permalink.collection
+
+    comment:
+        notification:
+            emails:   [email@example.org, email2@example.org]
+            from:     no-reply@sonata-project.org
+            template: 'SonataNewsBundle:Mail:comment_notification.txt.twig'
+
+    class:
+        post:       Jca\BlogBundle\Entity\Post
+        tag:        Jca\ClassificationBundle\Entity\Tag
+        comment:    Jca\BlogBundle\Entity\Comment
+        collection:     Jca\ClassificationBundle\Entity\Collection
+
+        media:      Jca\MediaBundle\Entity\Media
+        user:       Jca\UserBundle\Entity\User
+
+doctrine:
+    orm:
+        entity_managers:
+            default:
+                #metadata_cache_driver: apc
+                #query_cache_driver: apc
+                #result_cache_driver: apc
+                mappings:
+#                    ApplicationSonataNewsBundle: ~
+#                    ApplicationSonataClassificationBundle: ~
+                    SonataNewsBundle: ~
+                    SonataClassificationBundle: ~
