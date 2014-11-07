@@ -73,3 +73,15 @@ sonata_formatter:
         templates:
             browser: 'SonataFormatterBundle:Ckeditor:browser.html.twig'
             upload: 'SonataFormatterBundle:Ckeditor:upload.html.twig'
+
+imports:
+
+
+sonata_translation:
+    locales: [fr, en, zh]
+    default_locale: fr
+    # here enable the types you need
+    gedmo:
+        enabled: true
+    phpcr:
+        enabled: true

@@ -28,10 +28,12 @@
         "sonata-project/doctrine-orm-admin-bundle": "2.3.0",
         "sonata-project/easy-extends-bundle": "2.1.9",
         "sonata-project/classification-bundle": "2.2.*",
+        "sonata-project/translation-bundle": "dev-master",
         "jms/translation-bundle": "dev-master",
         "jms/i18n-routing-bundle": "dev-master",
         "knplabs/knp-paginator-bundle": "2.4.1",
-        "egeloen/google-map-bundle": "2.2.1"
+        "egeloen/google-map-bundle": "2.2.1",
+        "stof/doctrine-extensions-bundle": "1.1.*"
     },
     "require-dev": {
         "phpunit/phpunit": "*"

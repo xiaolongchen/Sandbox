@@ -4,6 +4,7 @@ imports:
     - { resource: fosUser.yml }
     - { resource: sonata.yml }
     - { resource: sonata_news.yml }
+    - { resource: '@SonataTranslationBundle/Resources/config/config.yml'}
 
 framework:
     #esi:             ~

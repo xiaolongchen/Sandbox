@@ -1,21 +1,17 @@
-#jca_classification:
-#    resource: "@JcaClassificationBundle/Controller/"
-#    type:     annotation
-#    prefix:   /
+jca_classification:
+    resource: "@JcaClassificationBundle/Controller/"
+    type:     annotation
+    prefix:   /
 
 jca_user:
     resource: "@JcaUserBundle/Controller/"
     type:     annotation
     prefix:   /
 
-#jca_blog:
-#    resource: "@JcaBlogBundle/Controller/"
-#    type:     annotation
-#    prefix:   /
-
-#ibw_jobeet:
-#    resource: "@IbwJobeetBundle/Resources/config/routing.yml"
-#    prefix:   /
+jca_blog:
+    resource: "@JcaBlogBundle/Controller/"
+    type:     annotation
+    prefix:   /
 
 admin:
     resource: '@SonataAdminBundle/Resources/config/routing/sonata_admin.xml'
