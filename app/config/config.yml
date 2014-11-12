@@ -4,6 +4,7 @@ imports:
     - { resource: fosUser.yml }
     - { resource: sonata.yml }
     - { resource: sonata_news.yml }
+    - { resource: jms.yml }
     - { resource: '@SonataTranslationBundle/Resources/config/config.yml'}
 
 framework:
@@ -31,6 +32,11 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+
+#twig.text_extension:
+#        class: Twig_Extensions_Extension_Text
+#        tags:
+#            - name: twig.extension
 
 # Assetic Configuration
 assetic:
@@ -76,9 +82,3 @@ swiftmailer:
 parameters:
     max_jobs_on_homepage: 10
     max_jobs_on_category: 20
-
-jms_i18n_routing:
-    default_locale: en
-    locales: [en, fr, zh]
-    strategy: prefix_except_default
-

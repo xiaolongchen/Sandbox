@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
+  <file date="2014-11-12T14:33:21Z" source-language="en" target-language="zh" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="5b44a8d4eb5fd69a8a9fee63b971d70a16603dfa" resname="admin_jca_blog_comment_batch">
+        <source>/admin/jca/blog/comment/batch</source>
+        <target state="new">/admin/jca/blog/comment/batch</target>
+      </trans-unit>
+      <trans-unit id="84c106dc367c1790a0c3eaa2b584e2830f7ba660" resname="admin_jca_blog_comment_create">
+        <source>/admin/jca/blog/comment/create</source>
+        <target state="new">/admin/jca/blog/comment/create</target>
+      </trans-unit>
+      <trans-unit id="738984d83aa59950f93f6a17a9c344e8f8b53ad1" resname="admin_jca_blog_comment_delete">
+        <source>/admin/jca/blog/comment/{id}/delete</source>
+        <target state="new">/admin/jca/blog/comment/{id}/delete</target>
+      </trans-unit>
+      <trans-unit id="48409ef3a2aeb099d51a9b23e4b5d7f17ab93273" resname="admin_jca_blog_comment_edit">
+        <source>/admin/jca/blog/comment/{id}/edit</source>
+        <target state="new">/admin/jca/blog/comment/{id}/edit</target>
+      </trans-unit>
+      <trans-unit id="2687dbf249f902462193ed5a7e2f7cdbcd1c3344" resname="admin_jca_blog_comment_export">
+        <source>/admin/jca/blog/comment/export</source>
+        <target state="new">/admin/jca/blog/comment/export</target>
+      </trans-unit>
+      <trans-unit id="7585d7476e04f5bda1defc416ec016557d5d01d0" resname="admin_jca_blog_comment_list">
+        <source>/admin/jca/blog/comment/list</source>
+        <target state="new">/admin/jca/blog/comment/list</target>
+      </trans-unit>
+      <trans-unit id="e9f7554851d0a010f7d8995e573fd6fec6980bc0" resname="admin_jca_blog_comment_show">
+        <source>/admin/jca/blog/comment/{id}/show</source>
+        <target state="new">/admin/jca/blog/comment/{id}/show</target>
+      </trans-unit>
+      <trans-unit id="68ce48b76491254fda568641746176a107db9be8" resname="admin_jca_blog_post_batch">
+        <source>/admin/jca/blog/post/batch</source>
+        <target state="new">/admin/jca/blog/post/batch</target>
+      </trans-unit>
+      <trans-unit id="6b92236b92ff3999fe8a6e00b2567e22f8288c48" resname="admin_jca_blog_post_comment_batch">
+        <source>/admin/jca/blog/post/{id}/comment/batch</source>
+        <target state="new">/admin/jca/blog/post/{id}/comment/batch</target>
+      </trans-unit>
+      <trans-unit id="5b85a5127ad74f1b90ccb2770b32db9080db1dd0" resname="admin_jca_blog_post_comment_create">
+        <source>/admin/jca/blog/post/{id}/comment/create</source>
+        <target state="new">/admin/jca/blog/post/{id}/comment/create</target>
+      </trans-unit>
+      <trans-unit id="32a0062df2d2bfc4523a2e53bff57b2e531ab55e" resname="admin_jca_blog_post_comment_delete">
+        <source>/admin/jca/blog/post/{id}/comment/{childId}/delete</source>
+        <target state="new">/admin/jca/blog/post/{id}/comment/{childId}/delete</target>
+      </trans-unit>
+      <trans-unit id="eb7fb435b38dd71c979db9147f7bc590f9b9dd9a" resname="admin_jca_blog_post_comment_edit">
+        <source>/admin/jca/blog/post/{id}/comment/{childId}/edit</source>
+        <target state="new">/admin/jca/blog/post/{id}/comment/{childId}/edit</target>
+      </trans-unit>
+      <trans-unit id="57afd4392caca3b47a957def62bfd7cead8f5d1c" resname="admin_jca_blog_post_comment_export">
+        <source>/admin/jca/blog/post/{id}/comment/export</source>
+        <target state="new">/admin/jca/blog/post/{id}/comment/export</target>
+      </trans-unit>
+      <trans-unit id="48b9d393ebbc6a215e73ae1a3133a6a44c9b2c50" resname="admin_jca_blog_post_comment_list">
+        <source>/admin/jca/blog/post/{id}/comment/list</source>
+        <target state="new">/admin/jca/blog/post/{id}/comment/list</target>
+      </trans-unit>
+      <trans-unit id="ae5b20f9bc770e951b3f38b83978363675b23c23" resname="admin_jca_blog_post_comment_show">
+        <source>/admin/jca/blog/post/{id}/comment/{childId}/show</source>
+        <target state="new">/admin/jca/blog/post/{id}/comment/{childId}/show</target>
+      </trans-unit>
+      <trans-unit id="b9475bc78ed5efc3c415c3ff741662b939364524" resname="admin_jca_blog_post_create">
+        <source>/admin/jca/blog/post/create</source>
+        <target state="new">/admin/jca/blog/post/create</target>
+      </trans-unit>
+      <trans-unit id="b322c68dd2c58bdf4c05bf2ed84fe4d15b370852" resname="admin_jca_blog_post_delete">
+        <source>/admin/jca/blog/post/{id}/delete</source>
+        <target state="new">/admin/jca/blog/post/{id}/delete</target>
+      </trans-unit>
+      <trans-unit id="8975f7be29afa25f4ca2d40c57c5518abeec7875" resname="admin_jca_blog_post_edit">
+        <source>/admin/jca/blog/post/{id}/edit</source>
+        <target state="new">/admin/jca/blog/post/{id}/edit</target>
+      </trans-unit>
+      <trans-unit id="30cdc1210a3c2cad47e657267538e7dfd8dde1ca" resname="admin_jca_blog_post_export">
+        <source>/admin/jca/blog/post/export</source>
+        <target state="new">/admin/jca/blog/post/export</target>
+      </trans-unit>
+      <trans-unit id="ac57c1bd7793575654212a44fed2033f8195df50" resname="admin_jca_blog_post_list">
+        <source>/admin/jca/blog/post/list</source>
+        <target state="new">/admin/jca/blog/post/list</target>
+      </trans-unit>
+      <trans-unit id="be4850fa9f378f0bf1e0063b79efec89f3afd5fd" resname="admin_jca_blog_post_show">
+        <source>/admin/jca/blog/post/{id}/show</source>
+        <target state="new">/admin/jca/blog/post/{id}/show</target>
+      </trans-unit>
+      <trans-unit id="315d82965c410c1f6945afbab033597a830365bd" resname="admin_jca_classification_category_batch">
+        <source>/admin/jca/classification/category/batch</source>
+        <target state="new">/admin/jca/classification/category/batch</target>
+      </trans-unit>
+      <trans-unit id="19003331db6dd91947f14b584a7ace3efe297498" resname="admin_jca_classification_category_create">
+        <source>/admin/jca/classification/category/create</source>
+        <target state="new">/admin/jca/classification/category/create</target>
+      </trans-unit>
+      <trans-unit id="f5d02596b8081a16d59553b3eb38d29af6899f7a" resname="admin_jca_classification_category_delete">
+        <source>/admin/jca/classification/category/{id}/delete</source>
+        <target state="new">/admin/jca/classification/category/{id}/delete</target>
+      </trans-unit>
+      <trans-unit id="827239453c04d0d983c71717b2a8030092a49b89" resname="admin_jca_classification_category_edit">
+        <source>/admin/jca/classification/category/{id}/edit</source>
+        <target state="new">/admin/jca/classification/category/{id}/edit</target>
+      </trans-unit>
+      <trans-unit id="309f56735bba9ad2b30fe22f35ab83bff74ed1b0" resname="admin_jca_classification_category_export">
+        <source>/admin/jca/classification/category/export</source>
+        <target state="new">/admin/jca/classification/category/export</target>
+      </trans-unit>
+      <trans-unit id="682ec2cf3a195ff02c4829905d2fee5ef97fd6ea" resname="admin_jca_classification_category_list">
+        <source>/admin/jca/classification/category/list</source>
+        <target state="new">/admin/jca/classification/category/list</target>
+      </trans-unit>
+      <trans-unit id="831a54bb3c61606947456c18d923445dfaca2ace" resname="admin_jca_classification_category_show">
+        <source>/admin/jca/classification/category/{id}/show</source>
+        <target state="new">/admin/jca/classification/category/{id}/show</target>
+      </trans-unit>
+      <trans-unit id="8f182bc5ae85b513787f8c4561dfef7a6267fc78" resname="admin_jca_classification_collection_batch">
+        <source>/admin/jca/classification/collection/batch</source>
+        <target state="new">/admin/jca/classification/collection/batch</target>
+      </trans-unit>
+      <trans-unit id="9d05487f98e41e9d59e424dbc7af30896f524eeb" resname="admin_jca_classification_collection_create">
+        <source>/admin/jca/classification/collection/create</source>
+        <target state="new">/admin/jca/classification/collection/create</target>
+      </trans-unit>
+      <trans-unit id="c5ac9e9fbdd511a9f48e4ede9662ef101f7e4ac8" resname="admin_jca_classification_collection_delete">
+        <source>/admin/jca/classification/collection/{id}/delete</source>
+        <target state="new">/admin/jca/classification/collection/{id}/delete</target>
+      </trans-unit>
+      <trans-unit id="da72e0aa9b01a8383b4ea8c2561d5566de38a519" resname="admin_jca_classification_collection_edit">
+        <source>/admin/jca/classification/collection/{id}/edit</source>
+        <target state="new">/admin/jca/classification/collection/{id}/edit</target>
+      </trans-unit>
+      <trans-unit id="9202f8b4db5856bbb0dcb458f0034a6dc0b4cd75" resname="admin_jca_classification_collection_export">
+        <source>/admin/jca/classification/collection/export</source>
+        <target state="new">/admin/jca/classification/collection/export</target>
+      </trans-unit>
+      <trans-unit id="45cefae8150eabd27fae37407c330157ed06aeb5" resname="admin_jca_classification_collection_list">
+        <source>/admin/jca/classification/collection/list</source>
+        <target state="new">/admin/jca/classification/collection/list</target>
+      </trans-unit>
+      <trans-unit id="6abd3779897eb32c1d60dfc2f5b8260fcdc86345" resname="admin_jca_classification_collection_show">
+        <source>/admin/jca/classification/collection/{id}/show</source>
+        <target state="new">/admin/jca/classification/collection/{id}/show</target>
+      </trans-unit>
+      <trans-unit id="215b24ac6988155192f0b919fea37b9b2b30c7fc" resname="admin_jca_classification_tag_batch">
+        <source>/admin/jca/classification/tag/batch</source>
+        <target state="new">/admin/jca/classification/tag/batch</target>
+      </trans-unit>
+      <trans-unit id="9f1cc66abdaacb030446748683741d9c997723cb" resname="admin_jca_classification_tag_create">
+        <source>/admin/jca/classification/tag/create</source>
+        <target state="new">/admin/jca/classification/tag/create</target>
+      </trans-unit>
+      <trans-unit id="a8c634c5d2c5c158fa177efe83383e75301a8b48" resname="admin_jca_classification_tag_delete">
+        <source>/admin/jca/classification/tag/{id}/delete</source>
+        <target state="new">/admin/jca/classification/tag/{id}/delete</target>
+      </trans-unit>
+      <trans-unit id="5a97d724208ba9f82e5e2acd69c2a1affc90841a" resname="admin_jca_classification_tag_edit">
+        <source>/admin/jca/classification/tag/{id}/edit</source>
+        <target state="new">/admin/jca/classification/tag/{id}/edit</target>
+      </trans-unit>
+      <trans-unit id="05636f3759d751ccef487d4d1cef5cf8076867d7" resname="admin_jca_classification_tag_export">
+        <source>/admin/jca/classification/tag/export</source>
+        <target state="new">/admin/jca/classification/tag/export</target>
+      </trans-unit>
+      <trans-unit id="6387393d1b1ace977a1df51b81ffb9aad0905a69" resname="admin_jca_classification_tag_list">
+        <source>/admin/jca/classification/tag/list</source>
+        <target state="new">/admin/jca/classification/tag/list</target>
+      </trans-unit>
+      <trans-unit id="6ae07494580f562ee82889181f3d2290c3bcea4e" resname="admin_jca_classification_tag_show">
+        <source>/admin/jca/classification/tag/{id}/show</source>
+        <target state="new">/admin/jca/classification/tag/{id}/show</target>
+      </trans-unit>
+      <trans-unit id="c7f2acf4fd86ef9c7e71ab63c40b4491db1df3e0" resname="admin_jca_media_gallery_batch">
+        <source>/admin/jca/media/gallery/batch</source>
+        <target state="new">/admin/jca/media/gallery/batch</target>
+      </trans-unit>
+      <trans-unit id="9160263cf9f97c24919fc36f0977be5a3f94689a" resname="admin_jca_media_gallery_create">
+        <source>/admin/jca/media/gallery/create</source>
+        <target state="new">/admin/jca/media/gallery/create</target>
+      </trans-unit>
+      <trans-unit id="7b82b093964a7182bb1bb891ea2201ebbac9407e" resname="admin_jca_media_gallery_delete">
+        <source>/admin/jca/media/gallery/{id}/delete</source>
+        <target state="new">/admin/jca/media/gallery/{id}/delete</target>
+      </trans-unit>
+      <trans-unit id="a9cfd32bf71e7c76b0b54bd7c1751b808031d87d" resname="admin_jca_media_gallery_edit">
+        <source>/admin/jca/media/gallery/{id}/edit</source>
+        <target state="new">/admin/jca/media/gallery/{id}/edit</target>
+      </trans-unit>
+      <trans-unit id="8ff828d4c0edbaec86ca682de0b7b811ff508667" resname="admin_jca_media_gallery_export">
+        <source>/admin/jca/media/gallery/export</source>
+        <target state="new">/admin/jca/media/gallery/export</target>
+      </trans-unit>
+      <trans-unit id="d49aa9cb448d125b5e79586f67306640cc56cc90" resname="admin_jca_media_gallery_list">
+        <source>/admin/jca/media/gallery/list</source>
+        <target state="new">/admin/jca/media/gallery/list</target>
+      </trans-unit>
+      <trans-unit id="8d948fcacbbba1702d076ee1fabbb04373beb949" resname="admin_jca_media_gallery_show">
+        <source>/admin/jca/media/gallery/{id}/show</source>
+        <target state="new">/admin/jca/media/gallery/{id}/show</target>
+      </trans-unit>
+      <trans-unit id="a4c0c4993c431c9be5bc74525662d8a9294ccb66" resname="admin_jca_media_galleryhasmedia_batch">
+        <source>/admin/jca/media/galleryhasmedia/batch</source>
+        <target state="new">/admin/jca/media/galleryhasmedia/batch</target>
+      </trans-unit>
+      <trans-unit id="1f11dad91a441d4837f870d81d37761f49ca4f79" resname="admin_jca_media_galleryhasmedia_create">
+        <source>/admin/jca/media/galleryhasmedia/create</source>
+        <target state="new">/admin/jca/media/galleryhasmedia/create</target>
+      </trans-unit>
+      <trans-unit id="468d3b72eec9a0efa5209eafe365b66fa33c2da3" resname="admin_jca_media_galleryhasmedia_delete">
+        <source>/admin/jca/media/galleryhasmedia/{id}/delete</source>
+        <target state="new">/admin/jca/media/galleryhasmedia/{id}/delete</target>
+      </trans-unit>
+      <trans-unit id="f309fc9f0718d737afc86d58282155ae8cac6b7c" resname="admin_jca_media_galleryhasmedia_edit">
+        <source>/admin/jca/media/galleryhasmedia/{id}/edit</source>
+        <target state="new">/admin/jca/media/galleryhasmedia/{id}/edit</target>
+      </trans-unit>
+      <trans-unit id="3118eb8d5e93819fa3c0e8e4fd70167b8bc456c4" resname="admin_jca_media_galleryhasmedia_export">
+        <source>/admin/jca/media/galleryhasmedia/export</source>
+        <target state="new">/admin/jca/media/galleryhasmedia/export</target>
+      </trans-unit>
+      <trans-unit id="98dbb3799d6e8f617fdf180cb631a0b5a907a47e" resname="admin_jca_media_galleryhasmedia_list">
+        <source>/admin/jca/media/galleryhasmedia/list</source>
+        <target state="new">/admin/jca/media/galleryhasmedia/list</target>
+      </trans-unit>
+      <trans-unit id="6a51d90dc56b1bfdc67e4a5bb831b100a8ae92e3" resname="admin_jca_media_galleryhasmedia_show">
+        <source>/admin/jca/media/galleryhasmedia/{id}/show</source>
+        <target state="new">/admin/jca/media/galleryhasmedia/{id}/show</target>
+      </trans-unit>
+      <trans-unit id="ddbacb4a33be44a5866a82216e052c7eede4399d" resname="admin_jca_media_media_batch">
+        <source>/admin/jca/media/media/batch</source>
+        <target state="new">/admin/jca/media/media/batch</target>
+      </trans-unit>
+      <trans-unit id="3ba367506d28e59066e7ea2ec05d99ce1352523f" resname="admin_jca_media_media_ckeditor_browser">
+        <source>/admin/jca/media/media/ckeditor_browser</source>
+        <target state="new">/admin/jca/media/media/ckeditor_browser</target>
+      </trans-unit>
+      <trans-unit id="9e6a85262b061a1016cebbe6e3437b65c094ddee" resname="admin_jca_media_media_ckeditor_upload">
+        <source>/admin/jca/media/media/ckeditor_upload</source>
+        <target state="new">/admin/jca/media/media/ckeditor_upload</target>
+      </trans-unit>
+      <trans-unit id="c0cccd7bb91b40e19fc1e10b241747c4a4ef8fb9" resname="admin_jca_media_media_create">
+        <source>/admin/jca/media/media/create</source>
+        <target state="new">/admin/jca/media/media/create</target>
+      </trans-unit>
+      <trans-unit id="510e6bb7d54c7265105e47810e9778cc4e6af75f" resname="admin_jca_media_media_delete">
+        <source>/admin/jca/media/media/{id}/delete</source>
+        <target state="new">/admin/jca/media/media/{id}/delete</target>
+      </trans-unit>
+      <trans-unit id="e2513399f6f33561693093814009f1adf53a08c5" resname="admin_jca_media_media_edit">
+        <source>/admin/jca/media/media/{id}/edit</source>
+        <target state="new">/admin/jca/media/media/{id}/edit</target>
+      </trans-unit>
+      <trans-unit id="7388fd1de528507535d928294452b3e6ef3b1e7f" resname="admin_jca_media_media_export">
+        <source>/admin/jca/media/media/export</source>
+        <target state="new">/admin/jca/media/media/export</target>
+      </trans-unit>
+      <trans-unit id="3e8471a9cd252b7848bff034f46a6d04f2080a5f" resname="admin_jca_media_media_list">
+        <source>/admin/jca/media/media/list</source>
+        <target state="new">/admin/jca/media/media/list</target>
+      </trans-unit>
+      <trans-unit id="41a0bbc1a2836f27fa8fa4f745ac4e8009e1eae3" resname="admin_jca_media_media_show">
+        <source>/admin/jca/media/media/{id}/show</source>
+        <target state="new">/admin/jca/media/media/{id}/show</target>
+      </trans-unit>
+      <trans-unit id="83555b0fd4cad76a9867fb925fd1ad0f6d4d9e48" resname="admin_jca_user_user_batch">
+        <source>/admin/jca/user/user/batch</source>
+        <target state="new">/admin/jca/user/user/batch</target>
+      </trans-unit>
+      <trans-unit id="2961fc1ddce08c46323ab1d1fa790f8318052068" resname="admin_jca_user_user_create">
+        <source>/admin/jca/user/user/create</source>
+        <target state="new">/admin/jca/user/user/create</target>
+      </trans-unit>
+      <trans-unit id="e758d10c85f2d11e91ef498867ea4cf09132b0a5" resname="admin_jca_user_user_delete">
+        <source>/admin/jca/user/user/{id}/delete</source>
+        <target state="new">/admin/jca/user/user/{id}/delete</target>
+      </trans-unit>
+      <trans-unit id="02b4df03b0603ab9296adcca3c8b6670ea56fb82" resname="admin_jca_user_user_edit">
+        <source>/admin/jca/user/user/{id}/edit</source>
+        <target state="new">/admin/jca/user/user/{id}/edit</target>
+      </trans-unit>
+      <trans-unit id="36df2af4b8dfdd6e0679eda1227a491151f37d15" resname="admin_jca_user_user_export">
+        <source>/admin/jca/user/user/export</source>
+        <target state="new">/admin/jca/user/user/export</target>
+      </trans-unit>
+      <trans-unit id="37dce60f7323cf9812872d9e76df36c539663353" resname="admin_jca_user_user_list">
+        <source>/admin/jca/user/user/list</source>
+        <target state="new">/admin/jca/user/user/list</target>
+      </trans-unit>
+      <trans-unit id="a7ffa9cd3a22f71dd93464d8f179d71e5b87326b" resname="admin_jca_user_user_show">
+        <source>/admin/jca/user/user/{id}/show</source>
+        <target state="new">/admin/jca/user/user/{id}/show</target>
+      </trans-unit>
+      <trans-unit id="7872ad122d018903e5a9ac85d95fc05b7379389f" resname="jca_blog_default_list">
+        <source>/blog</source>
+        <target state="new">/日志</target>
+      </trans-unit>
+      <trans-unit id="db43d4f304eead46327c7bde3afb91a0ac1c884b" resname="jca_classification_default_index">
+        <source>/classification/{name}</source>
+        <target state="new">/classification/{name}</target>
+      </trans-unit>
+      <trans-unit id="d9ac4d1363902495048073c153b641778364a9c2" resname="jca_user_default_index">
+        <source>/hello/{name}</source>
+        <target state="new">/hello/{name}</target>
+      </trans-unit>
+      <trans-unit id="2736fab291f04e69b62d490c3c09361f5b82461a" resname="login">
+        <source>/login</source>
+        <target state="new">/login</target>
+      </trans-unit>
+      <trans-unit id="28d0a05f740a9ea14d454c9040a3ad29c22f61e2" resname="login_check">
+        <source>/login_check</source>
+        <target state="new">/login_check</target>
+      </trans-unit>
+      <trans-unit id="55525e1b3dfd8787fd202aed45fb04494e3242d0" resname="logout">
+        <source>/logout</source>
+        <target state="new">/logout</target>
+      </trans-unit>
+      <trans-unit id="04a323eaf4b555f3ca15619a7d4d2b2eeb9527af" resname="sonata_admin_append_form_element">
+        <source>/admin/core/append-form-field-element</source>
+        <target state="new">/admin/core/append-form-field-element</target>
+      </trans-unit>
+      <trans-unit id="9b9a4b5e261b7bc6a7e83332811b28d362aaad89" resname="sonata_admin_dashboard">
+        <source>/admin/dashboard</source>
+        <target state="new">/admin/dashboard</target>
+      </trans-unit>
+      <trans-unit id="9377b6a268d95eb843045165fd433e0b4f7bcee6" resname="sonata_admin_redirect">
+        <source>/admin/</source>
+        <target state="new">/admin/</target>
+      </trans-unit>
+      <trans-unit id="0991ce5c547d6187b372b3799e5694e0471c01e6" resname="sonata_admin_retrieve_autocomplete_items">
+        <source>/admin/core/get-autocomplete-items</source>
+        <target state="new">/admin/core/get-autocomplete-items</target>
+      </trans-unit>
+      <trans-unit id="c1f8c0683377fcc919a326b66c14411d8cbb13b6" resname="sonata_admin_retrieve_form_element">
+        <source>/admin/core/get-form-field-element</source>
+        <target state="new">/admin/core/get-form-field-element</target>
+      </trans-unit>
+      <trans-unit id="c4fe33bf68363259adbe9c28c24bc3abc63bbe18" resname="sonata_admin_search">
+        <source>/admin/search</source>
+        <target state="new">/admin/search</target>
+      </trans-unit>
+      <trans-unit id="bffdaa97ccfe1e7f01f72dcabeb5d4dbbdfa6f9b" resname="sonata_admin_set_object_field_value">
+        <source>/admin/core/set-object-field-value</source>
+        <target state="new">/admin/core/set-object-field-value</target>
+      </trans-unit>
+      <trans-unit id="9d2f0bcd80379e8ce7f6a72aace38539b1ee8b9e" resname="sonata_admin_short_object_information">
+        <source>/admin/core/get-short-object-description.{_format}</source>
+        <target state="new">/admin/core/get-short-object-description.{_format}</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

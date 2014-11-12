@@ -1,0 +1,10 @@
+{% for blog in list %}
+    Hello {{ blog.title }}!
+{% endfor %}
+
+
+<a href="{{ path("jca_blog_default_list", {"_locale": "zh"}) }}">Chinese</a>
+<a href="{{ path("jca_blog_default_list", {"_locale": "en"}) }}">English</a>
+<a href="{{ path("jca_blog_default_list", {"_locale": "fr"}) }}">French</a>
+
+{{ "lang.chinese"|transchoice(1) }}

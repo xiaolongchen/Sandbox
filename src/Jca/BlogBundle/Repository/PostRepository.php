@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Jca\BlogBundle\Entity;
+namespace Jca\BlogBundle\Repository;
 
 use Sonata\NewsBundle\Entity\BasePostRepository;
 
@@ -24,5 +24,7 @@ use Sonata\NewsBundle\Entity\BasePostRepository;
  */
 class PostRepository extends BasePostRepository
 {
-
+    public function listBlog(){
+        return $this->findAll();
+    }
 }

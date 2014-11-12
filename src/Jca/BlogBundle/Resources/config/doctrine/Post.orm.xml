@@ -11,7 +11,7 @@
     <entity
         name="Jca\BlogBundle\Entity\Post"
         table="news__post"
-        repository-class="Jca\BlogBundle\Entity\PostRepository">
+        repository-class="Jca\BlogBundle\Repository\PostRepository">
 
         <id name="id" type="integer" column="id">
             <generator strategy="AUTO"/>

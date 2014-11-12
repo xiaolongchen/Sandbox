@@ -84,4 +84,4 @@ sonata_translation:
     gedmo:
         enabled: true
     phpcr:
-        enabled: true
+        enabled: false
