@@ -1,3 +1,8 @@
+jca_main:
+    resource: "@JCAMainBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 jca_classification:
     resource: "@JcaClassificationBundle/Controller/"
     type:     annotation

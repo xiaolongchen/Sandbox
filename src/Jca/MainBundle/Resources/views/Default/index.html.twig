@@ -1,0 +1,11 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+    {% for blog in list %}
+        Hello {{ blog.title }}!
+    {% endfor %}
+
+    <br/>
+    This is the homepage!
+    {{ "lang.chinese"|transchoice(1) }}
+{% endblock %}

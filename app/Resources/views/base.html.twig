@@ -2,11 +2,14 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}Welcome to Xiaolong CHEN's site{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
+        <a href="{{ path(app.request.attributes.get("_route"), {"_locale": "zh"}) }}">{{ "lang.chinese"|transchoice(1) }}</a>
+        <a href="{{ path(app.request.attributes.get("_route"), {"_locale": "en"}) }}">{{ "lang.english"|transchoice(1) }}</a>
+        <a href="{{ path(app.request.attributes.get("_route"), {"_locale": "fr"}) }}">{{ "lang.french"|transchoice(1) }}</a>
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>

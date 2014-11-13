@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
-  <file date="2014-11-12T14:33:34Z" source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+  <file date="2014-11-13T17:07:58Z" source-language="en" target-language="fr" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="c3f104d1365744b538bfde9f4adb6a6df4b80355" resname="Role">
-        <source>Role</source>
-        <target state="new">Role</target>
-        <jms:reference-file line="68">UserBundle/Admin/UserAdmin.php</jms:reference-file>
-      </trans-unit>
       <trans-unit id="07fa9b043adb00c5e74b9350063c5588c19a6053" resname="lang.chinese">
         <source>lang.chinese</source>
         <target state="new">Chinois</target>
-        <jms:reference-file line="10">views/Default/list.html.twig</jms:reference-file>
+        <jms:reference-file line="10">Resources/views/base.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="69391ded4b58079d29693e2b4a4defff588d1ab3" resname="lang.english">
+        <source>lang.english</source>
+        <target>Anglais</target>
+        <jms:reference-file line="11">Resources/views/base.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0df7f5f010c0f8a232655c4b5f10091a53d9ad23" resname="lang.french">
+        <source>lang.french</source>
+        <target>Français</target>
+        <jms:reference-file line="12">Resources/views/base.html.twig</jms:reference-file>
       </trans-unit>
     </body>
   </file>

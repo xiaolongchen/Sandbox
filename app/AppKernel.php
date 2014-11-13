@@ -56,6 +56,7 @@ class AppKernel extends Kernel
             new Jca\BlogBundle\JcaBlogBundle(),
             new Jca\UserBundle\JcaUserBundle(),
             new Jca\MediaBundle\JcaMediaBundle(),
+            new JCA\MainBundle\JCAMainBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
