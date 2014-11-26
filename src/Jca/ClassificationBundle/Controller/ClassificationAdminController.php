@@ -2,7 +2,6 @@
 
 /**
  * @author Xiaolong CHEN <xiaolong.chen@acensi.fr>
- * @file: AffiliateAdminController
  */
 namespace Jca\ClassificationBundle\Controller;
 

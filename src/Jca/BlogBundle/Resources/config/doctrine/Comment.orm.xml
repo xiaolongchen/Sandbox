@@ -10,7 +10,7 @@
     -->
     <entity
         name="Jca\BlogBundle\Entity\Comment"
-        table="news__comment"
+        table="blog__comment"
         repository-class="Doctrine\ORM\EntityRepository">
 
         <id name="id" type="integer" column="id">

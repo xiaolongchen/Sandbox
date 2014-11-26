@@ -10,7 +10,7 @@
     -->
     <entity
         name="Jca\BlogBundle\Entity\Post"
-        table="news__post"
+        table="blog__post"
         repository-class="Jca\BlogBundle\Repository\PostRepository">
 
         <id name="id" type="integer" column="id">
