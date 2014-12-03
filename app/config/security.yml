@@ -18,6 +18,7 @@ security:
             logout:
                 path:   /logout
                 target: /
+                invalidate_session:                 false
  
     access_control:
         - { path: ^/admin, roles: ROLE_ADMIN }

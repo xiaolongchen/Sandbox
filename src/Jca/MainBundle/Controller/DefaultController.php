@@ -16,6 +16,7 @@ class DefaultController extends Controller
     {
         $em = $this->getDoctrine()->getManager();
         $list = $em->getRepository('JcaBlogBundle:Post')->listBlog();
-        return array('list' => $list);
+        return $this->render('JcaMainBundle:Default:index.html.twig', array('list' => $list));
+        //return array('list' => $list);
     }
 }

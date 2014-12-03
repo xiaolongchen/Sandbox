@@ -1,5 +1,8 @@
+fos_user_security:
+    resource: "@FOSUserBundle/Resources/config/routing/security.xml"
+
 jca_main:
-    resource: "@JCAMainBundle/Controller/"
+    resource: "@JcaMainBundle/Controller/"
     type:     annotation
     prefix:   /
 
@@ -26,14 +29,6 @@ _sonata_admin:
     resource: .
     type: sonata_admin
     prefix: /admin
-    
-login:
-    pattern:   /login
-    defaults:  { _controller: IbwJobeetBundle:Default:login }
-    
-login_check:
-    pattern:   /login_check
-    
+
 logout:
     pattern:   /logout
-    

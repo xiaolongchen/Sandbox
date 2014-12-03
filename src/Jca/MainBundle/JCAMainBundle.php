@@ -1,9 +1,9 @@
 <?php
 
-namespace JCA\MainBundle;
+namespace Jca\MainBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class JCAMainBundle extends Bundle
+class JcaMainBundle extends Bundle
 {
 }
