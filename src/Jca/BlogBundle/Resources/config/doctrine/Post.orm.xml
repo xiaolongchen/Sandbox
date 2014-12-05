@@ -17,5 +17,8 @@
             <generator strategy="AUTO"/>
         </id>
 
+        <field name="locale" type="string" column="locale">
+        </field>
+
     </entity>
 </doctrine-mapping>
