@@ -3,13 +3,19 @@
     <head>
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome to Xiaolong CHEN's site{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        {% block stylesheets %}
+            <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+        {% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
-        <a href="{{ path(app.request.attributes.get("_route"), {"_locale": "zh"}) }}">{{ "lang.chinese"|transchoice(1) }}</a>
-        <a href="{{ path(app.request.attributes.get("_route"), {"_locale": "en"}) }}">{{ "lang.english"|transchoice(1) }}</a>
-        <a href="{{ path(app.request.attributes.get("_route"), {"_locale": "fr"}) }}">{{ "lang.french"|transchoice(1) }}</a>
+        <header>
+            <div id="i18n">
+                <a href="{{ path(app.request.attributes.get("_route"), {"_locale": "zh"}) }}">{{ "lang.chinese"|transchoice(1) }}</a>
+                <a href="{{ path(app.request.attributes.get("_route"), {"_locale": "en"}) }}">{{ "lang.english"|transchoice(1) }}</a>
+                <a href="{{ path(app.request.attributes.get("_route"), {"_locale": "fr"}) }}">{{ "lang.french"|transchoice(1) }}</a>
+            </div>
+        </header>
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>

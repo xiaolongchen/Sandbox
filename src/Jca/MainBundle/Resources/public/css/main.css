@@ -1,0 +1,10 @@
+header{
+
+}
+
+#wrapper{
+    background-color: transparent;
+    background: url(/bundles/jcamain/images/bg_zauberwald0.jpg) no-repeat center fixed;
+    min-width: 100%;
+    min-height: 100%;
+}

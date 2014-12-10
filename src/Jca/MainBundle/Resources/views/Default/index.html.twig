@@ -1,11 +1,13 @@
 {% extends '::base.html.twig' %}
 
-{% block body %}
-    {% for blog in list %}
-        Hello {{ blog.title }}!
-    {% endfor %}
+{% block stylesheets %}
+    {{ parent() }}
+    <link href="/bundles/jcamain/css/main.css" rel="stylesheet" type="text/css">
+{% endblock %}
 
-    <br/>
-    This is the homepage!èàé
-    {{ "lang.chinese"|trans([]) }}
+{% block body %}
+    <div id="wrapper">
+        {{ "lang.chinese"|trans([]) }}
+        <section></section>
+    </div>
 {% endblock %}
