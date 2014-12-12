@@ -6,8 +6,32 @@
 {% endblock %}
 
 {% block body %}
-    <div id="wrapper">
-        {{ "lang.chinese"|trans([]) }}
-        <section></section>
+    <div id="wrapper" class="container">
+        <section id="profile" class="row">
+            <div id="avatar" class="col-md-3 col-xs-3">
+                <img src="/bundles/jcamain/images/avatar.jpg">
+            </div>
+            <div id="overview" class="col-md-6 col-xs-6">
+                <h1>{{ 'xiaolongchen'|trans([]) }}</h1>
+                <h3>{{ 'job_title'|trans([]) }}</h3>
+            </div>
+        </section>
+        <section id="intro" class="row bgwhite">
+            <p>{{ 'intro_text'|trans([]) }}</p>
+        </section>
+        <section id="pro" class="row">
+            <h1 class="text-center">{{ 'pro_title'|trans([]) }}</h1>
+
+        </section>
+        <section id="skill" class="row bgwhite">
+            <h1 class="text-center">{{ 'skill_title'|trans([]) }}</h1>
+
+        </section>
+        <section id="edu" class="row">
+            <h1 class="text-center">{{ 'edu_title'|trans([]) }}</h1>
+        </section>
+        <section id="" class="row bgwhite">
+            <h1 class="text-center">jsp</h1>
+        </section>
     </div>
 {% endblock %}
