@@ -1,15 +1,25 @@
 header{
+    position: fixed;
+}
 
+section{
+    padding: 10px;
 }
 
 #i18n{
     float: right;
 }
+
 #wrapper{
     background-color: transparent;
     background: url(/bundles/jcamain/images/cloud.png) no-repeat center fixed;
+    background-size: cover;
     min-width: 100%;
     min-height: 100%;
+}
+
+#profile{
+    padding-top: 140px;
 }
 
 #avatar{
@@ -21,6 +31,7 @@ header{
 }
 
 .bgtrans{
+    color: white;
     background: transparent;
 }
 

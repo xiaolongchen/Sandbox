@@ -23,7 +23,7 @@
       </trans-unit>
       <trans-unit id="5482e092d68165721467491e75c72be74b242298" resname="job_title">
         <source>job_title</source>
-        <target state="new">job_title</target>
+        <target state="new">Développeur PHP</target>
         <jms:reference-file line="16">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="07fa9b043adb00c5e74b9350063c5588c19a6053" resname="lang.chinese">
@@ -68,7 +68,7 @@
       </trans-unit>
       <trans-unit id="639c96a72e366485c195a38cb69e412cc5b86fe1" resname="xiaolongchen">
         <source>xiaolongchen</source>
-        <target state="new">xiaolongchen</target>
+        <target state="new">Xiaolong CHEN</target>
         <jms:reference-file line="15">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
     </body>

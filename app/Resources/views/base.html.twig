@@ -3,9 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome to Xiaolong CHEN's site{% endblock %}</title>
-        {% block stylesheets %}
-            <link href="/bundles/vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
-        {% endblock %}
+        <link href="/bundles/vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+        {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
@@ -22,6 +21,7 @@
             </div>
         </header>
         {% block body %}{% endblock %}
+            <script src="/bundles/vendor/jquery/dist/jquery.js" type="text/javascript"></script>
         {% block javascripts %}{% endblock %}
     </body>
 </html>

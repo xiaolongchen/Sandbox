@@ -1,7 +1,6 @@
 {% extends '::base.html.twig' %}
 
 {% block stylesheets %}
-    {{ parent() }}
     <link href="/bundles/jcamain/css/main.css" rel="stylesheet" type="text/css">
 {% endblock %}
 
@@ -11,7 +10,7 @@
             <div id="avatar" class="col-md-3 col-xs-3">
                 <img src="/bundles/jcamain/images/avatar.jpg">
             </div>
-            <div id="overview" class="col-md-6 col-xs-6">
+            <div id="overview" class="col-md-6 col-xs-6 bgtrans">
                 <h1>{{ 'xiaolongchen'|trans([]) }}</h1>
                 <h3>{{ 'job_title'|trans([]) }}</h3>
             </div>
@@ -19,7 +18,7 @@
         <section id="intro" class="row bgwhite">
             <p>{{ 'intro_text'|trans([]) }}</p>
         </section>
-        <section id="pro" class="row">
+        <section id="pro" class="row bgtrans">
             <h1 class="text-center">{{ 'pro_title'|trans([]) }}</h1>
 
         </section>
@@ -27,11 +26,15 @@
             <h1 class="text-center">{{ 'skill_title'|trans([]) }}</h1>
 
         </section>
-        <section id="edu" class="row">
+        <section id="edu" class="row bgtrans">
             <h1 class="text-center">{{ 'edu_title'|trans([]) }}</h1>
         </section>
         <section id="" class="row bgwhite">
             <h1 class="text-center">jsp</h1>
         </section>
     </div>
+{% endblock %}
+
+{% block javascripts %}
+    <script href="/bundles/jcamain/js/main.js" type="text/javascript"></script>
 {% endblock %}
