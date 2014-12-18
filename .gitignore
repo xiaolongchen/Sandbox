@@ -8,7 +8,7 @@
 !app/logs/.gitkeep
 /app/sessions
 /build/
-/vendor/
+/vendor/*
 !vendor/zend
 /bower_components/
 /bin/*
