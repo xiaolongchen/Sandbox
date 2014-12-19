@@ -1,14 +1,14 @@
 {% extends '::base.html.twig' %}
 
 {% block stylesheets %}
-    <link href="/bundles/jcamain/css/main.css" rel="stylesheet" type="text/css">
+    <link href="{{ asset('bundles/jcamain/css/main.css') }}" rel="stylesheet" type="text/css">
 {% endblock %}
 
 {% block body %}
     <div id="wrapper" class="container">
         <section id="profile" class="row">
             <div id="avatar" class="col-md-3 col-xs-3">
-                <img src="/bundles/jcamain/images/avatar.jpg">
+                <img src="{{ asset('bundles/jcamain/images/avatar.jpg') }}">
             </div>
             <div id="overview" class="col-md-6 col-xs-6 bgtrans">
                 <h1>{{ 'xiaolongchen'|trans([]) }}</h1>
@@ -36,5 +36,5 @@
 {% endblock %}
 
 {% block javascripts %}
-    <script src="/bundles/jcamain/js/main.js" type="text/javascript"></script>
+    <script src="{{ asset('bundles/jcamain/js/main.js') }}" type="text/javascript"></script>
 {% endblock %}
