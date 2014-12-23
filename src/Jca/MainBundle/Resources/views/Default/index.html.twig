@@ -2,6 +2,7 @@
 
 {% block stylesheets %}
     <link href="{{ asset('bundles/jcamain/css/main.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('bundles/jcamain/css/font-awesome.css') }}" rel="stylesheet" type="text/css">
 {% endblock %}
 
 {% block body %}
@@ -10,7 +11,7 @@
             <div id="avatar" class="col-md-3 col-xs-3">
                 <img src="{{ asset('bundles/jcamain/images/avatar.jpg') }}">
             </div>
-            <div id="overview" class="col-md-6 col-xs-6 bgtrans">
+            <div id="overview" class="col-md-6 col-xs-12 bgtrans">
                 <h1>{{ 'xiaolongchen'|trans([]) }}</h1>
                 <h3>{{ 'job_title'|trans([]) }}</h3>
             </div>
@@ -21,16 +22,106 @@
         <section id="pro" class="row bgtrans">
             <h1 class="text-center">{{ 'pro_title'|trans([]) }}</h1>
 
+            <div class="col-md-6 col-xs-12">
+                <div class="lv2 bgwhite">
+                    <h3>{{ 'job_title_ex1'|trans([]) }}</h3>
+                    <span>ACENSI</span>
+                    <p class="protime">{{ 'job_duration_ex1'|trans([]) }}</p>
+                    <p>{{ 'job_text_ex1'|trans([]) }}</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-xs-12">
+                <div class="lv2 bgwhite">
+                    <h3>{{ 'job_title_ex2'|trans([]) }}</h3>
+                    <span>Metaboli</span>
+                    <p class="protime">{{ 'job_duration_ex2'|trans([]) }}</p>
+                    <p>{{ 'job_text_ex2'|trans([]) }}</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-xs-12">
+                <div class="lv2 bgwhite">
+                    <h3>{{ 'job_title_ex3'|trans([]) }}</h3>
+                    <span>Relais & Châteaux</span>
+                    <p class="protime">{{ 'job_duration_ex3'|trans([]) }}</p>
+                    <p>{{ 'job_text_ex3'|trans([]) }}</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-xs-12">
+                <div class="lv2 bgwhite">
+                    <h3>{{ 'job_title_ex4'|trans([]) }}</h3>
+                    <span>Yroz</span>
+                    <p class="protime">{{ 'job_duration_ex4'|trans([]) }}</p>
+                    <p>{{ 'job_text_ex4'|trans([]) }}</p>
+                </div>
+            </div>
+
+
         </section>
         <section id="skill" class="row bgwhite">
             <h1 class="text-center">{{ 'skill_title'|trans([]) }}</h1>
-
+            <div class="skill_line">
+                <span class="skill">PHP</span>
+                <span class="skill">MySQL</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">JQuery</span>
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+            </div>
+            <div class="skill_line">
+                <span class="skill">Symfony</span>
+                <span class="skill">Doctrine</span>
+                <span class="skill">CakePHP</span>
+                <span class="skill">CodeIgniter</span>
+                <span class="skill">WordPress</span>
+                <span class="skill">SPIP</span>
+                <span class="skill">PHPUnit</span>
+                <span class="skill">Twig</span>
+                <span class="skill">Smarty</span>
+                <span class="skill">Bootstrap</span>
+            </div>
+            <div class="skill_line">
+                <span class="skill">PHPStorm</span>
+                <span class="skill">Eclipse</span>
+                <span class="skill">Notepad++</span>
+                <span class="skill">PhotoShop</span>
+                <span class="skill">GIT</span>
+                <span class="skill">SourceTree</span>
+                <span class="skill">NPM</span>
+            </div>
+            <div class="skill_line">
+                <span class="skill">Oracle</span>
+                <span class="skill">SQL Server</span>
+                <span class="skill">AngularJS</span>
+                <span class="skill">Behat</span>
+            </div>
         </section>
         <section id="edu" class="row bgtrans">
             <h1 class="text-center">{{ 'edu_title'|trans([]) }}</h1>
+            <div class="col-md-6 col-xs-12">
+                <div class="lv2 bgwhite">
+                    <h3>{{ 'edu_title_ex1'|trans([]) }}</h3>
+                    <span>{{ 'edu_fac_ex1'|trans([]) }}</span>
+                    <p class="protime">{{ 'edu_duration_ex1'|trans([]) }}</p>
+                    <p>{{ 'edu_text_ex1'|trans([]) }}</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-xs-12">
+                <div class="lv2 bgwhite">
+                    <h3>{{ 'edu_title_ex2'|trans([]) }}</h3>
+                    <span>{{ 'edu_fac_ex2'|trans([]) }}</span>
+                    <p class="protime">{{ 'edu_duration_ex2'|trans([]) }}</p>
+                    <p>{{ 'edu_text_ex2'|trans([]) }}</p>
+                </div>
+            </div>
         </section>
         <section id="" class="row bgwhite">
-            <h1 class="text-center">jsp</h1>
+            <h1 class="text-center">{{ 'contact'|trans([]) }}</h1>
+            <a href="" class="fa fa-facebook-square"></a>
+            <i class="fa fa-facebook-square"></i>
         </section>
     </div>
 {% endblock %}

@@ -6,9 +6,10 @@ jms_i18n_routing:
 jms_translation:
     configs:
         app:
-            dirs: [%kernel.root_dir%, %kernel.root_dir%/../src]
+            dirs: [%kernel.root_dir%/../app, %kernel.root_dir%/../src]
             output_dir: %kernel.root_dir%/Resources/translations
             ignored_domains: [routes]
+            keep: yes
             excluded_names: ["*TestCase.php", "*Test.php"]
             excluded_dirs: [cache, data, logs]
-            extractors: [alias_of_the_extractor]
+            extractors: [jms_i18n_routing]

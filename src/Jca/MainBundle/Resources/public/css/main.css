@@ -1,5 +1,8 @@
 header{
     position: fixed;
+    width: 100%;
+    background-color: #e8eaee;
+    z-index: 1;
 }
 
 section{
@@ -8,6 +11,7 @@ section{
 
 #i18n{
     float: right;
+    padding: 14px;
 }
 
 #wrapper{
@@ -16,6 +20,21 @@ section{
     background-size: cover;
     min-width: 100%;
     min-height: 100%;
+}
+
+#wrapper p{
+    font-size: 16px;
+}
+
+#wrapper span{
+    font-size: 14px;
+}
+
+.row{
+
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #profile{
@@ -35,6 +54,38 @@ section{
     background: transparent;
 }
 
+.bgtrans .bgwhite{
+    color: #333;
+}
+
 .text-center {
     text-align: center;
+}
+
+.lv2{
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+}
+
+p.protime{
+    color: #a1a1a1;
+    font-size: 13px;
+}
+
+span.skill{
+    margin: 3px;
+    padding: 2px 8px;
+    line-height: 24px;
+    color: #3F77A0;
+    font-weight: normal;
+    background-color: #CBC7C7;
+    position: relative;
+    border-bottom: 1px solid #CBC7C7;
+    border-right: 1px solid #CBC7C7;
+    border-radius: 3px;
+}
+
+div.skill_line{
+    text-align: center;
+    line-height: 36px;
 }

@@ -20,22 +20,26 @@ module.exports = function(grunt) {
                 dest: 'web/built/images/app',
                 options: {type: 'dir'}
             }*/
-        }
-        /*concat: {
+        },
+        concat: {
             lessCore: {
                 src: [
-                    'web/bundles/vendor/bootstrap/less/variables.less',
-                    'web/bundles/app/less/sprite.less',
-                    'web/bundles/app/less/layout.less',
-                    'web/bundles/app/less/header.less',
-                    'web/bundles/app/less/menu.less',
-                    'web/bundles/app/less/menu_responsive.less',
-                    'web/bundles/app/less/footer.less',
-                    'web/bundles/app/less/contenu.less',
+                    'web/bundles/app/less/icons.less',
+                    'web/bundles/app/less/bordered-pulled.less',
+                    'web/bundles/app/less/fixed-width.less',
+                    //'web/bundles/app/less/font-awesome.less',
+                    'web/bundles/app/less/larger.less',
+                    'web/bundles/app/less/mixins.less',
+                    'web/bundles/app/less/list.less',
+                    'web/bundles/app/less/path.less',
+                    'web/bundles/app/less/rotated-flipped.less',
+                    'web/bundles/app/less/spinning.less',
+                    'web/bundles/app/less/variables.less',
+                    'web/bundles/app/less/stacked.less'
                 ],
                 dest: 'web/built/less/core.less'
-            },
-            common: {
+            }
+            /*common: {
                 src: [
                     'web/bundles/vendor/jquery/dist/jquery.js',
                     'web/bundles/vendor/gray/js/jquery.gray.js',
@@ -60,9 +64,9 @@ module.exports = function(grunt) {
                     'vendor-front/respond/dest/respond.src.js'
                 ],
                 dest: 'web/built/js/ie8.js'
-            }
+            }*/
         },
-        watch: {
+        /*watch: {
             css: {
                 files: ['web/bundles/* /less/ *.less'],
                 tasks: ['concat:lessCore', 'less:discovering', 'less']
@@ -99,11 +103,11 @@ module.exports = function(grunt) {
 //                '!web/bundles/sizanniajquerytools/js/configs.js'
 //            ]
 //        },
-//        less: {
-//            bundles: {
-//                files: filesLess
-//            }
-//        },
+        less: {
+            bundles: {
+                files: filesLess
+            }
+        }
 //        imagemin: {
 //            png: {
 //                options: {
@@ -154,29 +158,29 @@ module.exports = function(grunt) {
     grunt.registerTask('dev', ['css:dev']);
     //grunt.registerTask('dev', ['css:dev', 'javascript:dev']); //replacement
     grunt.registerTask('deploy', ['css:dist', 'javascript:dist']);
-    grunt.registerTask('css:dev', ['symlink:app', 'symlink:vendor']);
+    grunt.registerTask('css:dev', ['symlink:app', 'symlink:vendor', 'concat:lessCore', 'less:discovering', 'less']);
     //grunt.registerTask('css:dev', ['symlink:app', 'symlink:vendor', 'concat:lessCore', 'less:discovering', 'less', 'initDirectoryImages', 'symlink:images', 'symlink:imagesPage', 'symlink:imagesAdmin']); //replacement
     grunt.registerTask('css:dist', ['css:dev', 'cssmin']);
 //    grunt.registerTask('javascript:dev', ['jshint', 'concat']);
 //    grunt.registerTask('javascript:dist', ['concat', 'uglify']);
-//    grunt.registerTask('less:discovering', '', function() {
-//        // SCSS Files management
-//        // Source SCSS files are located inside : bundles/[bundle]/scss/
-//        // Destination CSS files are located inside : built/[bundle]/scss/
-//        var mappingFileLess = grunt.file.expandMapping(
-//                ['less/**/*.less'],
-//                'web/built/',
-//                {
-//                    cwd: 'web/built/',
-//                    rename: function(dest, matchedSrcPath, options) {
-//                        return dest + matchedSrcPath.replace(/less/g, 'css');
-//                    }
-//                });
-//        grunt.util._.each(mappingFileLess, function(value) {
-//            // Why value.src is an array ??
-//            filesLess[value.dest] = value.src[0];
-//        });
-//    });
+    grunt.registerTask('less:discovering', '', function() {
+        // SCSS Files management
+        // Source SCSS files are located inside : bundles/[bundle]/scss/
+        // Destination CSS files are located inside : built/[bundle]/scss/
+        var mappingFileLess = grunt.file.expandMapping(
+                ['less/**/*.less'],
+                'web/built/',
+                {
+                    cwd: 'web/built/',
+                    rename: function(dest, matchedSrcPath, options) {
+                        return dest + matchedSrcPath.replace(/less/g, 'css');
+                    }
+                });
+        grunt.util._.each(mappingFileLess, function(value) {
+            // Why value.src is an array ??
+            filesLess[value.dest] = value.src[0];
+        });
+    });
     grunt.registerTask('initDirectoryImages', '', function() {
         grunt.file.mkdir("web/built/images");
     });
