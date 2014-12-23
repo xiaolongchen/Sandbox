@@ -53,7 +53,7 @@
       </trans-unit>
       <trans-unit id="8e71d7e6377d05920deded21918414c347031c16" resname="job_text_ex3">
         <source>job_text_ex3</source>
-        <target state="new">job_text_ex3</target>
+        <target state="new">Site Relais &amp; Chateaux</target>
         <jms:reference-file line="47">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6eb7af246faa26886d0cd71fb303d0520ab6843f" resname="job_text_ex4">

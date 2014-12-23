@@ -43,22 +43,26 @@
       </trans-unit>
       <trans-unit id="6287a0be0e2d6dea3856b9703105637b23c976e5" resname="job_text_ex1">
         <source>job_text_ex1</source>
-        <target state="new">Project Site Acensi</target>
+        <target state="new">Project Site Acensi
+        Development of the site with the framework Symfony, with the back office using Sonata Admin Bundle. Responsive design compatible with mobile</target>
         <jms:reference-file line="29">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="502b86187fdb5799831ca6b2bc6890b9d0835c59" resname="job_text_ex2">
         <source>job_text_ex2</source>
-        <target state="new">job_text_ex2</target>
+        <target state="new">Sites Metaboli, Gamesplanet and Gametap.
+        Development with PHP native and Smarty Template, refactory with Doctrine</target>
         <jms:reference-file line="38">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8e71d7e6377d05920deded21918414c347031c16" resname="job_text_ex3">
         <source>job_text_ex3</source>
-        <target state="new">job_text_ex3</target>
+        <target state="new">Site Relais &amp; Chateaux
+        Developement of the site with framework SPIP. Projet webservice using framework CakePHP</target>
         <jms:reference-file line="47">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6eb7af246faa26886d0cd71fb303d0520ab6843f" resname="job_text_ex4">
         <source>job_text_ex4</source>
-        <target state="new">job_text_ex4</target>
+        <target state="new">Site Yroz.fr
+        Development of the site with framework CodeIgniter, design and integration of the pages.</target>
         <jms:reference-file line="56">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5482e092d68165721467491e75c72be74b242298" resname="job_title">

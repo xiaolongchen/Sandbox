@@ -24,4 +24,4 @@ ALTER TABLE media__gallery_media ADD CONSTRAINT  FOREIGN KEY (media_id) REFERENC
 
 ALTER TABLE classification__category ADD CONSTRAINT  FOREIGN KEY (parent_id) REFERENCES classification__category (id) ON DELETE CASCADE;
 ALTER TABLE classification__category ADD CONSTRAINT  FOREIGN KEY (media_id) REFERENCES media__media (id) ON DELETE SET NULL;
-ALTER TABLE classification__collection ADD CONSTRAINT  FOREIGN KEY (media_id) REFERENCES media__media (id) ON DELETE SET NULL;
+ALTER TABLE classification__collection ADD CONSTRAINT  FOREIGN KEY (gallery_id) REFERENCES media__gallery (id) ON DELETE SET NULL;
