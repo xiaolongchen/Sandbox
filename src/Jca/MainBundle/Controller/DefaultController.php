@@ -1,6 +1,6 @@
 <?php
 
-namespace JCA\MainBundle\Controller;
+namespace Jca\MainBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -15,8 +15,8 @@ class DefaultController extends Controller
     public function indexAction()
     {
         $em = $this->getDoctrine()->getManager();
-        $list = $em->getRepository('JcaBlogBundle:Post')->listBlog();
-        return $this->render('JcaMainBundle:Default:index.html.twig', array('list' => $list));
+        //$list = $em->getRepository('JcaBlogBundle:Post')->listBlog();
+        return $this->render('JcaMainBundle:Default:index.html.twig');
         //return array('list' => $list);
     }
 }
