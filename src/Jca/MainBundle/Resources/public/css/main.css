@@ -16,7 +16,7 @@ section{
 
 #wrapper{
     background-color: transparent;
-    background: url(../images/cloud.png) no-repeat center fixed;
+    background: url(../images/bg_snow.jpg) no-repeat center fixed;
     background-size: cover;
     min-width: 100%;
     min-height: 100%;
@@ -42,7 +42,7 @@ section{
 }
 
 #avatar{
-    width: 251px;
+    width: 280px;
 }
 
 .bgwhite{
@@ -67,6 +67,10 @@ section{
     margin: 10px;
 }
 
+.lv2 a{
+    color: #333333;
+}
+
 p.protime{
     color: #a1a1a1;
     font-size: 13px;
@@ -88,4 +92,9 @@ span.skill{
 div.skill_line{
     text-align: center;
     line-height: 36px;
+}
+
+.social{
+    font-size: 2em;
+    text-align: center;
 }

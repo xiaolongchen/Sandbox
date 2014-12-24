@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
-  <file date="2014-12-23T16:34:45Z" source-language="en" target-language="en" datatype="plaintext" original="not.available">
+  <file date="2014-12-24T11:16:15Z" source-language="en" target-language="en" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -11,105 +11,152 @@
         <target state="new">Role</target>
         <jms:reference-file line="68">UserBundle/Admin/UserAdmin.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="1a73af9e7ae00182733b2292511b814be66f065f" resname="contact">
+        <source>contact</source>
+        <target state="new">Contact</target>
+        <jms:reference-file line="122">views/Default/index.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2a8a0c118fbdd7c9003ac0f2fdc92edf60da72fb" resname="edu_duration_ex1">
+        <source>edu_duration_ex1</source>
+        <target state="new">2011 - 2013</target>
+        <jms:reference-file line="107">views/Default/index.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f55c3266ec95f7940f404a05669b9f2c38c87878" resname="edu_duration_ex2">
+        <source>edu_duration_ex2</source>
+        <target state="new">2008 - 2011</target>
+        <jms:reference-file line="116">views/Default/index.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="57a4dcedbbdbec6403fcbc23f04bcd644fb4abab" resname="edu_fac_ex1">
+        <source>edu_fac_ex1</source>
+        <target state="new"><![CDATA[<a href="http://www.efrei.fr/en/efrei" target="_blank">EFREI</a>]]></target>
+        <jms:reference-file line="106">views/Default/index.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="158ed7933344fc0d189233d8562d6df8022a668a" resname="edu_fac_ex2">
+        <source>edu_fac_ex2</source>
+        <target state="new"><![CDATA[<a href="http://www.seu.edu.cn/english/" target="_blank">Southeast University</a>]]></target>
+        <jms:reference-file line="115">views/Default/index.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f60d847cadffcf4927f30081254dd6b6156e0dff" resname="edu_text_ex1">
+        <source>edu_text_ex1</source>
+        <target state="new"><![CDATA[Business Intelligence<br/>
+        Ecole d'ingénieur des technologies de l'information et de la communication, Villejuif, France]]></target>
+        <jms:reference-file line="108">views/Default/index.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="509ebde3253df4243e724880fd6f3380f4bd1713" resname="edu_text_ex2">
+        <source>edu_text_ex2</source>
+        <target state="new"><![CDATA[College of Electronic Science and Engineering<br/>
+        Nanjing, China]]></target>
+        <jms:reference-file line="117">views/Default/index.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="a932c37b365955be3ec83929271193e601d35637" resname="edu_title">
         <source>edu_title</source>
         <target state="new">Education</target>
-        <jms:reference-file line="67">views/Default/index.html.twig</jms:reference-file>
+        <jms:reference-file line="102">views/Default/index.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="38889d1b653a0792473b22ba78f7d6a47078c94d" resname="edu_title_ex1">
+        <source>edu_title_ex1</source>
+        <target state="new">Master on Information System</target>
+        <jms:reference-file line="105">views/Default/index.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3d050de1c98ccf986144097082ffa181db205029" resname="edu_title_ex2">
+        <source>edu_title_ex2</source>
+        <target state="new">Bachelor on Electronic Science and Technologies</target>
+        <jms:reference-file line="114">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="90cda70da9ca6f8d4b706857f57bb74d30ffa794" resname="intro_text">
         <source>intro_text</source>
-        <target state="new">This is the introduction text and it should be long enough to test. This is the introduction text and it should be long enough to test. This is the introduction text and it should be long enough to test. This is the introduction text and it should be long enough to test. This is the introduction text and it should be long enough to test. This is the introduction text and it should be long enough to test. This is the introduction text and it should be long enough to test. This is the introduction text and it should be long enough to test. This is the introduction text and it should be long enough to test. This is the introduction text and it should be long enough to test. </target>
-        <jms:reference-file line="19">views/Default/index.html.twig</jms:reference-file>
+        <target state="new">I am graduated from EFREI(Engineering School of Information and Digital Technologies) in Villejuif, France. I studied Information System Architecture and specialization in Business Intelligence. After graduation I started to work as a web developer and specialize in PHP development.</target>
+        <jms:reference-file line="20">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="727dd2f62f90b00244c0bf33ac6af10b56de27d5" resname="job_duration_ex1">
         <source>job_duration_ex1</source>
         <target state="new">August 2014 - Present</target>
-        <jms:reference-file line="28">views/Default/index.html.twig</jms:reference-file>
+        <jms:reference-file line="29">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="75cc8650d726eee4928efb419f7e62a5b31b1d6c" resname="job_duration_ex2">
         <source>job_duration_ex2</source>
         <target state="new">October 2013 - March 2014</target>
-        <jms:reference-file line="37">views/Default/index.html.twig</jms:reference-file>
+        <jms:reference-file line="38">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="fb2e4f590bf5e1bbc3b24158fc99233883bb3bb4" resname="job_duration_ex3">
         <source>job_duration_ex3</source>
         <target state="new">February 2013 - September 2013</target>
-        <jms:reference-file line="46">views/Default/index.html.twig</jms:reference-file>
+        <jms:reference-file line="47">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8f54995c813bfa589d0cdb28e88a4bd80866ad68" resname="job_duration_ex4">
         <source>job_duration_ex4</source>
         <target state="new">April 2012 - September 2012</target>
-        <jms:reference-file line="55">views/Default/index.html.twig</jms:reference-file>
+        <jms:reference-file line="56">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6287a0be0e2d6dea3856b9703105637b23c976e5" resname="job_text_ex1">
         <source>job_text_ex1</source>
         <target state="new">Project Site Acensi
-        Development of the site with the framework Symfony, with the back office using Sonata Admin Bundle. Responsive design compatible with mobile</target>
-        <jms:reference-file line="29">views/Default/index.html.twig</jms:reference-file>
+        Development of the site with the framework Symfony, with the back office using Sonata Bundle. Responsive design compatible with mobile</target>
+        <jms:reference-file line="30">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="502b86187fdb5799831ca6b2bc6890b9d0835c59" resname="job_text_ex2">
         <source>job_text_ex2</source>
         <target state="new">Sites Metaboli, Gamesplanet and Gametap.
         Development with PHP native and Smarty Template, refactory with Doctrine</target>
-        <jms:reference-file line="38">views/Default/index.html.twig</jms:reference-file>
+        <jms:reference-file line="39">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8e71d7e6377d05920deded21918414c347031c16" resname="job_text_ex3">
         <source>job_text_ex3</source>
-        <target state="new">Site Relais &amp; Chateaux
-        Developement of the site with framework SPIP. Projet webservice using framework CakePHP</target>
-        <jms:reference-file line="47">views/Default/index.html.twig</jms:reference-file>
+        <target state="new"><![CDATA[Site Relais & Châteaux
+        Developement of the site with framework SPIP. Projet webservice using framework CakePHP]]></target>
+        <jms:reference-file line="48">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6eb7af246faa26886d0cd71fb303d0520ab6843f" resname="job_text_ex4">
         <source>job_text_ex4</source>
         <target state="new">Site Yroz.fr
         Development of the site with framework CodeIgniter, design and integration of the pages.</target>
-        <jms:reference-file line="56">views/Default/index.html.twig</jms:reference-file>
+        <jms:reference-file line="57">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5482e092d68165721467491e75c72be74b242298" resname="job_title">
         <source>job_title</source>
         <target state="new">PHP Developer</target>
-        <jms:reference-file line="15">views/Default/index.html.twig</jms:reference-file>
+        <jms:reference-file line="16">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="9726f908e8652ee8263c84d3a05c351622274260" resname="job_title_ex1">
         <source>job_title_ex1</source>
         <target state="new">PHP Consultant</target>
-        <jms:reference-file line="26">views/Default/index.html.twig</jms:reference-file>
+        <jms:reference-file line="27">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8cf40dfe2e4ee3bc1348b9bb47d80cb4d02cf813" resname="job_title_ex2">
         <source>job_title_ex2</source>
         <target state="new">PHP Developer</target>
-        <jms:reference-file line="35">views/Default/index.html.twig</jms:reference-file>
+        <jms:reference-file line="36">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="2f80cdaaeb8e18f4b7e4eb0d1a9237f79c1465e4" resname="job_title_ex3">
         <source>job_title_ex3</source>
         <target state="new">Intern Web Developer</target>
-        <jms:reference-file line="44">views/Default/index.html.twig</jms:reference-file>
+        <jms:reference-file line="45">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="670b43852062282eefddcdb63e05a4f7404dfdda" resname="job_title_ex4">
         <source>job_title_ex4</source>
         <target state="new">Intern Web Developer</target>
-        <jms:reference-file line="53">views/Default/index.html.twig</jms:reference-file>
+        <jms:reference-file line="54">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="07fa9b043adb00c5e74b9350063c5588c19a6053" resname="lang.chinese">
         <source>Chinese</source>
         <target state="new">Chinese</target>
-        <jms:reference-file line="17">Resources/views/base.html.twig</jms:reference-file>
+        <jms:reference-file line="19">Resources/views/base.html.twig</jms:reference-file>
         <jms:reference-file line="10">views/Default/list.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="69391ded4b58079d29693e2b4a4defff588d1ab3" resname="lang.english">
         <source>lang.english</source>
         <target>English</target>
-        <jms:reference-file line="18">Resources/views/base.html.twig</jms:reference-file>
+        <jms:reference-file line="20">Resources/views/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="0df7f5f010c0f8a232655c4b5f10091a53d9ad23" resname="lang.french">
         <source>lang.french</source>
         <target>French</target>
-        <jms:reference-file line="19">Resources/views/base.html.twig</jms:reference-file>
+        <jms:reference-file line="21">Resources/views/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="0b9f02dfead8a8ce57f8540c74528715866a4ac8" resname="pro_title">
         <source>pro_title</source>
         <target state="new">Professional Experiences</target>
-        <jms:reference-file line="22">views/Default/index.html.twig</jms:reference-file>
+        <jms:reference-file line="23">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a0814ac987b5a52b1fb08710bc6efa82f770e933" resname="sidemenu.link_view_comments">
         <source>sidemenu.link_view_comments</source>
@@ -124,7 +171,7 @@
       <trans-unit id="5b1131c92af934e7c2a1322ec873d57ed9664867" resname="skill_title">
         <source>skill_title</source>
         <target state="new">Professional Skills</target>
-        <jms:reference-file line="63">views/Default/index.html.twig</jms:reference-file>
+        <jms:reference-file line="64">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e77743a7955e652aa7ebf4a7650d4adc48611b17" resname="status_code">
         <source>status_code</source>
@@ -134,7 +181,7 @@
       <trans-unit id="639c96a72e366485c195a38cb69e412cc5b86fe1" resname="xiaolongchen">
         <source>xiaolongchen</source>
         <target state="new">Xiaolong CHEN</target>
-        <jms:reference-file line="14">views/Default/index.html.twig</jms:reference-file>
+        <jms:reference-file line="15">views/Default/index.html.twig</jms:reference-file>
       </trans-unit>
     </body>
   </file>

@@ -25,7 +25,7 @@
             <div class="col-md-6 col-xs-12">
                 <div class="lv2 bgwhite">
                     <h3>{{ 'job_title_ex1'|trans([]) }}</h3>
-                    <span>ACENSI</span>
+                    <a href="http://www.acensi.fr" target="_blank"><span>ACENSI</span></a>
                     <p class="protime">{{ 'job_duration_ex1'|trans([]) }}</p>
                     <p>{{ 'job_text_ex1'|trans([])| nl2br }}</p>
                 </div>
@@ -34,16 +34,16 @@
             <div class="col-md-6 col-xs-12">
                 <div class="lv2 bgwhite">
                     <h3>{{ 'job_title_ex2'|trans([]) }}</h3>
-                    <span>Metaboli</span>
+                    <a href="http://www.gametap.com" target="_blank"><span>Metaboli</span></a>
                     <p class="protime">{{ 'job_duration_ex2'|trans([]) }}</p>
-                    <p>{{ 'job_text_ex2'|trans([]) }}</p>
+                    <p>{{ 'job_text_ex2'|trans([])|raw }}</p>
                 </div>
             </div>
 
             <div class="col-md-6 col-xs-12" style="clear:both;">
                 <div class="lv2 bgwhite">
                     <h3>{{ 'job_title_ex3'|trans([]) }}</h3>
-                    <span>Relais & Châteaux</span>
+                    <a href="http://www.relaischateaux.com/" target="_blank"><span>Relais & Châteaux</span></a>
                     <p class="protime">{{ 'job_duration_ex3'|trans([]) }}</p>
                     <p>{{ 'job_text_ex3'|trans([]) }}</p>
                 </div>
@@ -53,6 +53,8 @@
                 <div class="lv2 bgwhite">
                     <h3>{{ 'job_title_ex4'|trans([]) }}</h3>
                     <span>Yroz</span>
+                    <a href="https://www.youtube.com/watch?v=YlE4qxV4lVA" class="fa fa-youtube-square" target="_blank"></a>
+                    <a href="https://www.facebook.com/YROZ.fr" class="fa fa-facebook-square" target="_blank"></a>
                     <p class="protime">{{ 'job_duration_ex4'|trans([]) }}</p>
                     <p>{{ 'job_text_ex4'|trans([]) }}</p>
                 </div>
@@ -103,26 +105,37 @@
             <div class="col-md-6 col-xs-12">
                 <div class="lv2 bgwhite">
                     <h3>{{ 'edu_title_ex1'|trans([]) }}</h3>
-                    <span>{{ 'edu_fac_ex1'|trans([]) }}</span>
+                    <span>{{ 'edu_fac_ex1'|trans([])|raw }}</span>
                     <p class="protime">{{ 'edu_duration_ex1'|trans([]) }}</p>
-                    <p>{{ 'edu_text_ex1'|trans([]) }}</p>
+                    <p>{{ 'edu_text_ex1'|trans([])|raw }}</p>
                 </div>
             </div>
 
             <div class="col-md-6 col-xs-12">
                 <div class="lv2 bgwhite">
                     <h3>{{ 'edu_title_ex2'|trans([]) }}</h3>
-                    <span>{{ 'edu_fac_ex2'|trans([]) }}</span>
+                    <span>{{ 'edu_fac_ex2'|trans([])|raw }}</span>
                     <p class="protime">{{ 'edu_duration_ex2'|trans([]) }}</p>
-                    <p>{{ 'edu_text_ex2'|trans([]) }}</p>
+                    <p>{{ 'edu_text_ex2'|trans([])|raw }}</p>
                 </div>
             </div>
         </section>
         <section id="" class="row bgwhite">
             <h1 class="text-center">{{ 'contact'|trans([]) }}</h1>
-            <a href="" class="fa fa-facebook-square"></a>
-            <i class="fa fa-facebook-square"></i>
+            <div class="social">
+                <a href="mailto:contact@xiaolongchen.com" class="fa fa-envelope-square" target="_blank"></a>
+                <a href="https://www.facebook.com/xiaolong.chen.98" class="fa fa-facebook-square" target="_blank"></a>
+                <a href="http://fr.linkedin.com/pub/xiaolong-chen/2b/bb3/a15" class="fa fa-linkedin-square" target="_blank"></a>
+                <a href="https://twitter.com/XiaolongJC" class="fa fa-twitter-square" target="_blank"></a>
+                <a href="http://weibo.com/1675564470" class="fa fa-weibo" target="_blank"></a>
+                <a href="http://www.renren.com/400100052" class="fa fa-renren" target="_blank"></a>
+                <a href="https://plus.google.com/u/0/105720719292094818817" class="fa fa fa-google-plus-square" target="_blank"></a>
+                <a href="http://www.pinterest.com/jcangel33/" class="fa fa-pinterest-square" target="_blank"></a>
+                <a href="http://instagram.com/xiaolong.chen/" class="fa fa-instagram" target="_blank"></a>
+                <a href="https://github.com/xiaolongchen" class="fa fa-github-square" target="_blank"></a>
+            </div>
         </section>
+        <p class="text-center"></p>
     </div>
 {% endblock %}
 
