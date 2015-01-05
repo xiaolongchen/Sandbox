@@ -21,3 +21,6 @@
 /phpunit.xml
 /.idea/
 *.php~
+/bundles/
+/uploads/
+/built/
