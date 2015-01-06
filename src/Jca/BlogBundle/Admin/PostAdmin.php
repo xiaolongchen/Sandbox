@@ -175,10 +175,10 @@ class PostAdmin extends Admin
             array('uri' => $admin->generateUrl('edit', array('id' => $id)))
         );
 
-        $menu->addChild(
+        /*$menu->addChild(
             $this->trans('sidemenu.link_view_comments'),
             array('uri' => $admin->generateUrl('sonata.news.admin.comment.list', array('id' => $id)))
-        );
+        );*/
     }
 
     /**
