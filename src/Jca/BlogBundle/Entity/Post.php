@@ -10,7 +10,10 @@
 
 namespace Jca\BlogBundle\Entity;
 
+use Doctrine\ORM\Mapping as ORM;
 use Sonata\NewsBundle\Entity\BasePost as BasePost;
+use Gedmo\Mapping\Annotation as Gedmo;
+use Symfony\Component\Config\Definition\Exception\Exception;
 
 class Post extends BasePost
 {
@@ -57,4 +60,37 @@ class Post extends BasePost
     {
         return $this->locale;
     }
+
+    public function setTitle($title)
+    {
+        $this->title = $title;
+        if($this->getLocale() == 'zh') $this->setSlug($this->slugifycn($title));
+        else $this->setSlug($this->slugify($title));
+    }
+
+    public function slugify($text)
+    {
+        $text = preg_replace('~[^\\pL\d]+~u', '-', $text);
+        $text = trim($text, '-');
+        if (function_exists('iconv')) {
+            $text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
+        }
+        $text = strtolower($text);
+        $text = preg_replace('~[^-\w]+~', '', $text);
+        if (empty($text)) {
+            return 'n-a';
+        }
+        return $text;
+    }
+
+    public function slugifycn($text)
+    {
+        $text = preg_replace('~[^\\pL\d]+~u', '-', $text);
+        $text = trim($text, '-');
+        if (empty($text)) {
+            return 'n-a';
+        }
+        return $text;
+    }
+
 }

@@ -19,6 +19,7 @@ use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Show\ShowMapper;
 use Sonata\FormatterBundle\Formatter\Pool as FormatterPool;
 use Sonata\CoreBundle\Model\ManagerInterface;
+use Jca\BlogBundle\Entity\Comment;
 
 use Knp\Menu\ItemInterface as MenuItemInterface;
 
@@ -62,7 +63,9 @@ class PostAdmin extends Admin
         //$commentClass = $this->commentManager->getClass();
 
         $formMapper
-            ->with('General')
+            ->with('General', array(
+                'class' => 'col-md-8'
+            ))
                 ->add('enabled', null, array('required' => false))
                 ->add('author', 'sonata_type_model_list')
                 ->add('collection', 'sonata_type_model_list', array('required' => false))
@@ -74,24 +77,30 @@ class PostAdmin extends Admin
                     'format_field'   => 'contentFormatter',
                     'source_field'   => 'rawContent',
                     'source_field_options'      => array(
-                        'attr' => array('class' => 'span10', 'rows' => 20)
+                        'horizontal_input_wrapper_class' => $this->getConfigurationPool()->getOption('form_type') == 'horizontal' ? 'col-lg-12': '',
+                        'attr' => array('class' => $this->getConfigurationPool()->getOption('form_type') == 'horizontal' ? 'span10 col-sm-10 col-md-10': '', 'rows' => 20)
                     ),
+                    'ckeditor_context'     => 'news',
                     'target_field'   => 'content',
                     'listener'       => true,
                 ))
             ->end()
-            ->with('Tags')
+            ->with('Tags', array(
+                'class' => 'col-md-4'
+            ))
                 ->add('tags', 'sonata_type_model', array(
                     'required' => false,
                     'expanded' => true,
                     'multiple' => true,
                 ))
             ->end()
-            ->with('Options')
+            ->with('Options', array(
+                'class' => 'col-md-4'
+            ))
                 ->add('publicationDateStart')
-                ->add('commentsCloseAt')
+                ->add('commentsCloseAt', null, array('required' => false))
                 ->add('commentsEnabled', null, array('required' => false))
-                //->add('commentsDefaultStatus', 'choice', array('choices' => $commentClass::getStatusList(), 'expanded' => true))
+                ->add('commentsDefaultStatus', 'choice', array('choices' => Comment::getStatusList(), 'expanded' => true))
             ->end()
         ;
     }
@@ -104,11 +113,12 @@ class PostAdmin extends Admin
         $listMapper
             ->addIdentifier('title')
             ->add('author')
-            ->add('collection')
+            ->add('locale')
+            //->add('collection')
             ->add('enabled', null, array('editable' => true))
             ->add('tags')
             ->add('commentsEnabled', null, array('editable' => true))
-            ->add('commentsCount')
+            //->add('commentsCount')
             ->add('publicationDateStart')
         ;
     }
@@ -175,10 +185,10 @@ class PostAdmin extends Admin
             array('uri' => $admin->generateUrl('edit', array('id' => $id)))
         );
 
-        /*$menu->addChild(
+        $menu->addChild(
             $this->trans('sidemenu.link_view_comments'),
-            array('uri' => $admin->generateUrl('sonata.news.admin.comment.list', array('id' => $id)))
-        );*/
+            array('uri' => $admin->generateUrl('jca.blog.admin.comment.list', array('id' => $id)))
+        );
     }
 
     /**

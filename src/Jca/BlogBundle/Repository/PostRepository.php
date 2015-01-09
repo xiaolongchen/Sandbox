@@ -27,4 +27,9 @@ class PostRepository extends BasePostRepository
     public function listBlog(){
         return $this->findAll();
     }
+
+    public function showBlog($slug){
+        $blog = $this->findOneBySlug($slug);
+        return $blog;
+    }
 }

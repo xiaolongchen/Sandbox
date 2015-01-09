@@ -16,6 +16,7 @@ use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\CoreBundle\Model\ManagerInterface;
+use Jca\BlogBundle\Entity\Comment;
 
 class CommentAdmin extends Admin
 {
@@ -36,14 +37,13 @@ class CommentAdmin extends Admin
 //            $formMapper->add('post', 'sonata_type_admin', array(), array('edit' => 'inline'));
         }
 
-        //$commentClass = $this->commentManager->getClass();
 
         $formMapper
             ->add('name')
             ->add('email')
             ->add('url', null, array('required' => false))
             ->add('message')
-            //->add('status', 'choice', array('choices' => $commentClass::getStatusList(), 'expanded' => true, 'multiple' => false))
+            ->add('status', 'choice', array('choices' => Comment::getStatusList(), 'expanded' => true, 'multiple' => false))
         ;
     }
 

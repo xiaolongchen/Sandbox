@@ -10,17 +10,17 @@
             <argument>Jca\BlogBundle\Entity\Post</argument>
             <argument></argument>
 
-            <!--<call method="setUserManager">-->
-                <!--<argument type="service" id="fos_user.user_manager" />-->
-            <!--</call>-->
+            <call method="setUserManager">
+                <argument type="service" id="fos_user.user_manager" />
+            </call>
 
-            <!--<call method="setPoolFormatter">-->
-                <!--<argument type="service" id="sonata.formatter.pool" />-->
-            <!--</call>-->
+            <call method="setPoolFormatter">
+                <argument type="service" id="sonata.formatter.pool" />
+            </call>
 
-            <!--<call method="addChild">-->
-                <!--<argument type="service" id="jca.blog.admin.comment" />-->
-            <!--</call>-->
+            <call method="addChild">
+                <argument type="service" id="jca.blog.admin.comment" />
+            </call>
 
             <call method="setTranslationDomain">
                 <argument>%sonata.news.admin.post.translation_domain%</argument>

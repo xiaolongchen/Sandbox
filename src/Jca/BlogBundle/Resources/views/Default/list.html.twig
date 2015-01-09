@@ -1,5 +1,5 @@
 {% for blog in list %}
-    Hello {{ blog.title }}!
+    Hello {{ blog.title }}!  <a href="{{ path('jca_blog_default_show', {'slug': blog.slug} ) }}"> Slug is {{ blog.slug }}</a><br/>
 {% endfor %}
 
 
